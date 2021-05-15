@@ -6,4 +6,5 @@ This is data repository for Coronavirus (COVID-19) Report Cases in Indonesia.
 
 __Covid19.go.id__: https://data.covid19.go.id/public/api/prov.json
 
-
+# Visual Dashboard:
+https://fahmiam2.github.io/Covid19-Report-Indonesia/
