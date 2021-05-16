@@ -4,5 +4,4 @@
 
 ## __Data Source__: 
 - __Satuan Tugas Penanganan COVID-19__: https://covid19.go.id/public/api/prov.json
-- __OWID__: https://github.com/owid/covid-19-data (Recovery Data)
 
