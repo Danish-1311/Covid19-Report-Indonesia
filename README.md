@@ -1,4 +1,4 @@
-# Covid19 Data Repository
+# Indonesia Covid-19 Data Repository
 
 This is data repository for Novel Corona Virus (2019-nCoV) Report Cases in Indonesia. 
 
@@ -15,4 +15,4 @@ https://fahmiam2.github.io/Covid19-Report-Indonesia/
 
 This data has been collected and created a dashboard by Fahmi Aditya Maulana.
 
-This repository of the Indonesia Covid-19 dataset is supossed to make people easily accessible and downloadable datasets.   
+This repository of the Indonesia Covid-19 dataset is suppossed to make people easily accessible and downloadable datasets.   
