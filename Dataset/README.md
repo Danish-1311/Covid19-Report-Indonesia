@@ -1,7 +1,8 @@
 # Indonesia Covid-19 Datasets
 
 In the Dataset directory, there are several datasets that we have been collecting and/or aggregating, such as:
-- __owid_covid_data__: This dataset originally have been collected from [Our World in Data (OWID)](https://ourworldindata.org/) for over country. As of 26 January 2021 the dataset columns are the columns are: 
+- __owid_covid_data__: This dataset originally have been collected from [Our World in Data (OWID)](https://ourworldindata.org/) for all countries in the world.
+ As of 26 January 2021 the dataset columns are: 
 `iso_code`, `continent`, `location`, `date`, `total_cases`, `new_cases`, `new_cases_smoothed`, `total_deaths`, `new_deaths`, 
 `new_deaths_smoothed`, `total_cases_per_million`, `new_cases_per_million`, `new_cases_smoothed_per_million`, `total_deaths_per_million`, `new_deaths_per_million`, 
 `new_deaths_smoothed_per_million`, `reproduction_rate, icu_patients`, `icu_patients_per_million`, `hosp_patients`, `hosp_patients_per_million`, `weekly_icu_admissions`, 
@@ -17,6 +18,7 @@ __For more details about the original dataset, please visit__ [Our World in Data
 The original dataset contains missing value, so we handle the missing value with two ways: __(1)__ using ffill method, then __(2)__ fill the rest missing value with 0 
 (For more details, please check it out at [our syntax](/Syntax/Covid19_ID_owid.ipynb). The columns are same as the __owid_covid_data__ dataset.
 
-- __covid_prov_id__: This dataset orginally have been collected from [Our World in Data (OWID)](https://covid19.go.id/)
+- __covid_prov_id__: This dataset orginally have been collected from [Satgas Penangangan Covid-19](https://covid19.go.id/) for all provinces in Indonesia.
+The dataset columns are: `date`, `province`,	`new_cases`,	`new_deaths`,	`new_recoveries`,	`new_hospitalizations`,	`total_cases`,	`total_deaths`,	`total_recoveries`,	`total_hospitalizations`. We have build second page of the dashboard based on this dataset.
 
-- __covid19_inndonesia_complete_version__:
+- __covid19_indonesia_complete_version__: This dataset has been made by merging the __cov19_id_owid__ dataset and [Satgas Penangangan Covid-19](https://covid19.go.id/) for Indonesia daily update dataset. Why we merged these two datasets? it's because we don't have access to get `new_test` covid-19 data from [Satgas Penangangan Covid-19](https://covid19.go.id/) for Indonesia daily update dataset. Then, what if there are different values with the same columns between these two datasets? We use `new_cases`,	`new_deaths`,	`new_recoveries`,	`new_hospitalizations`,	`total_cases`,	`total_deaths`,	`total_recoveries`,	`total_hospitalizations` data from [Satgas Penangangan Covid-19](https://covid19.go.id/) dataset, while the rest of data we use data from __cov19_id_owid__ dataset.
