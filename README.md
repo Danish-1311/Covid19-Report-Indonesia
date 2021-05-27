@@ -23,5 +23,5 @@ The dashboard contains 3 pages:
 ## Author:
 
 This data has been collected and created a dashboard by Fahmi Aditya Maulana.
-This repository of the Indonesia Covid-19 dataset is suppossed to make people easily accessible and downloadable datasets.   
+This repository of the Indonesia Covid-19 dataset is supposed to make people easily accessible and downloadable datasets.   
 
