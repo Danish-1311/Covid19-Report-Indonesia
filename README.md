@@ -9,7 +9,7 @@ https://fahmiam2.github.io/Covid19-Report-Indonesia/
 The dashboard contains 3 pages:
 - __First page__ about The Covid-19 developments in Indonesia
 - __Second page__ about The Covid-19 developments in Provinces of Indonesia
-- __Third page__ about The Rank of the highest Covid-19 total cases or total deaths in Provinces of Indonesia
+- __Third page__ about Indonesia Provinces Covid-19 total cases or total deaths rank.
 
 ### Embed our Dashboard to your webpage:
 
