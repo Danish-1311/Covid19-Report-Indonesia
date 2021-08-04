@@ -21,6 +21,8 @@ The dashboard contains 3 pages:
 
 ## Find Indonesia Covid-19 datasets in [/Dataset](/Dataset) 
 
+## Find EDA and Modelling DKI Jakarta COVID-19 Cases in [/Syntax](/Syntax) --> Covid_Policy.ipynb 
+
 ## Author:
 
 This data has been collected and created a dashboard by Fahmi Aditya Maulana.
